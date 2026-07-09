@@ -725,3 +725,22 @@ nav ul.active{
     background:#0f766e;
     padding:20px 0;
 }
+.project-links{
+    margin-top:15px;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.project-links a{
+    text-decoration:none;
+    background:#2563eb;
+    color:white;
+    padding:8px 15px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.project-links a:hover{
+    background:#1d4ed8;
+}
